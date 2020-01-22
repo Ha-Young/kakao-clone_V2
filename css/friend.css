@@ -1,3 +1,7 @@
+.friends {
+  padding-top: 115px;
+}
+
 .friend {
   display: flex;
   justify-content: space-between;
@@ -6,12 +10,10 @@
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 38%;
+  height: 45px;
+  border-radius: 45%;
 }
 
-.friend__avatar.g-avatar {
-  width: 70px;
-}
 .friend__avatar.m-avatar {
   width: 60px;
 }
